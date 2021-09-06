@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		081C17B8DFA7DD799D3B4512 /* Pods-SwiftFaceNet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFaceNet_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFaceNet_Tests/Pods-SwiftFaceNet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		18272597300C1F6360741B67 /* Pods-SwiftFaceNet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFaceNet_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFaceNet_Example/Pods-SwiftFaceNet_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		387B479115E522D3F6C9F81F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		387B479115E522D3F6C9F81F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4F711B4535E85F2B3FE63067 /* Pods-SwiftFaceNet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFaceNet_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftFaceNet_Tests/Pods-SwiftFaceNet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5031D4AFE53BE7B93DCE1801 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5031D4AFE53BE7B93DCE1801 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftFaceNet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFaceNet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* SwiftFaceNet_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFaceNet_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7CA89B7013C3887042DE2EA7 /* SwiftFaceNet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftFaceNet.podspec; path = ../SwiftFaceNet.podspec; sourceTree = "<group>"; };
+		7CA89B7013C3887042DE2EA7 /* SwiftFaceNet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftFaceNet.podspec; path = ../SwiftFaceNet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95850CF1820D07D5398AB011 /* Pods_SwiftFaceNet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFaceNet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BF6CDDE86AB980E7E180A0 /* Pods-SwiftFaceNet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFaceNet_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftFaceNet_Example/Pods-SwiftFaceNet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DFF23FBFE25391467B7479AD /* Pods_SwiftFaceNet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFaceNet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				081C17B8DFA7DD799D3B4512 /* Pods-SwiftFaceNet_Tests.debug.xcconfig */,
 				4F711B4535E85F2B3FE63067 /* Pods-SwiftFaceNet_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

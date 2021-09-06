@@ -1,0 +1,6 @@
+framework module SwiftFaceNet {
+  umbrella header "SwiftFaceNet-umbrella.h"
+
+  export *
+  module * { export * }
+}

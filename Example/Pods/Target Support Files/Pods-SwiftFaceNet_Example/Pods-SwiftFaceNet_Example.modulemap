@@ -1,0 +1,6 @@
+framework module Pods_SwiftFaceNet_Example {
+  umbrella header "Pods-SwiftFaceNet_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

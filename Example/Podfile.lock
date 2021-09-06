@@ -1,0 +1,16 @@
+PODS:
+  - SwiftFaceNet (0.1.0)
+
+DEPENDENCIES:
+  - SwiftFaceNet (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftFaceNet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftFaceNet: 96b07f7ea6c43d8b717f4026a09fc3c2592830e5
+
+PODFILE CHECKSUM: f82f34f19ac93e1c499312d55f815ade0b8b5887
+
+COCOAPODS: 1.10.2

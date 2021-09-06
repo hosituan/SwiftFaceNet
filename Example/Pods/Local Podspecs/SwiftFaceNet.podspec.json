@@ -1,0 +1,22 @@
+{
+  "name": "SwiftFaceNet",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftFaceNet.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hosituan/SwiftFaceNet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hosituan": "tuan.ho@c2c-techhub.io"
+  },
+  "source": {
+    "git": "https://github.com/hosituan/SwiftFaceNet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftFaceNet/Classes/**/*"
+}
